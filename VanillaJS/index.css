@@ -1,6 +1,182 @@
+*,
+*:before,
+*:after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  word-break: break-word;
+  outline: 0;
+}
+:lang(ko) *,
+:lang(ko) *:before,
+:lang(ko) *:after {
+  word-break: keep-all;
+  white-space: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+body {
+  line-height: 1.2;
+  background-color: #1c1823;
+  font-family: "Noto Sans KR", "malgun gothic", "Dotum", sans-serif;
+  color: #000;
+  letter-spacing: -0.05em;
+  -webkit-text-size-adjust: none;
+}
+body {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+:lang(fr) body {
+  font-family: "Noto Sans Gothic", sans-serif;
+}
+
+address,
+article,
+aside,
+canvas,
+details,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block\9;
+  margin: 0\9;
+  padding: 0\9;
+}
+hr {
+  display: none;
+}
+caption {
+  overflow: hidden;
+  height: 0px;
+  font-size: 0px;
+  line-height: 0px;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+ol,
+ul,
+li,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+th,
+td {
+  border: 0px;
+  word-break: keep-all;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+fieldset {
+  width: 100%;
+  border: 0px;
+}
+legend {
+  position: absolute;
+  left: -999em;
+  top: -999em;
+}
+frameset {
+  border: 0px;
+}
+iframe {
+  width: 100%;
+  border: 0px;
+}
+em,
+address,
+i {
+  font-style: normal;
+}
+button,
+a,
+input,
+label,
+textarea {
+  border-radius: 0;
+  font-family: "Noto Sans KR", "malgun gothic", "Dotum", sans-serif;
+  vertical-align: middle;
+}
+:lang(fr) button,
+:lang(fr) a,
+:lang(fr) input,
+:lang(fr) label,
+:lang(fr) textarea {
+  font-family: "Noto Sans Gothic", sans-serif;
+}
+select {
+  vertical-align: middle;
+}
+button {
+  overflow: visible; /*outline:none; */
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: 0;
+}
+button:disabled {
+  cursor: default;
+  filter: alpha(opacity=3);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: 0.3;
+}
+button::-moz-focus-inner {
+  padding: 0px;
+}
+select,
+input,
+textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+input[type="text"]::-ms-clear {
+  display: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  outline: 0;
+}
+
 body {
   background-color: #000;
   color: #fff;
+  text-align: center;
+  display: grid;
 }
 li {
   color: #fff;
@@ -9,9 +185,13 @@ li {
 .btn {
   cursor: pointer;
 }
+.js-clock {
+  padding: 5vw;
+}
 h1 {
   color: #fff;
   transition: color 0.5s ease-in-out;
+  font-size: 20vw;
 }
 h1.clicked {
   color: #fff;
@@ -58,16 +238,32 @@ h1.clicked {
 .form {
   display: none;
 }
-
+.js-toDoForm {
+  /* margin-bottom: 3vw; */
+}
+.js-toDoForm input {
+  border: none;
+  width: 74vw;
+  height: 10vw;
+  text-align: center;
+  border-radius: 1vw;
+  font-size: 3.8vw;
+}
 .greetings {
   display: none;
   color: #fff;
+  font-size: 5vw;
+  padding: 10vw 0 0;
 }
 
 .showing {
   display: block;
 }
-
+.js-toDoList {
+  /* display: grid; */
+  /* justify-items: start; */
+  /* padding: 0 5vw; */
+}
 .js-toDoList li span {
   margin-left: 10px;
   color: #fff;
@@ -85,7 +281,7 @@ h1.clicked {
   cursor: pointer;
 }
 
-.bgImage {
+#bgImage {
   position: absolute;
   top: 0;
   left: 0;
@@ -96,6 +292,24 @@ h1.clicked {
   animation: fadeIn 0.5s linear;
 }
 
+#bgImage.img01 {
+  background-image: url("images/1.jpg");
+}
+#bgImage.img02 {
+  background-image: url("images/2.jpg");
+}
+#bgImage.img03 {
+  background-image: url("images/3.jpg");
+}
+#bgImage.img04 {
+  background-image: url("images/4.jpg");
+}
+#bgImage.img05 {
+  background-image: url("images/5.jpg");
+}
+#bgImage.img06 {
+  background-image: url("images/6.jpg");
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -103,4 +317,7 @@ h1.clicked {
   to {
     opacity: 1;
   }
+}
+
+@media screen and (max-width: 500px) {
 }
