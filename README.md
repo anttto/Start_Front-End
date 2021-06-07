@@ -9,10 +9,13 @@
 
 #### 2021-06-04
 
-- To-Do List 완성(약 2주 소요) [Link](https://anttto.github.io/Breaking-Front-End/VanillaJS/index.html“ToDoList”)
+- To-Do List 완성(약 2주 소요) [Link](https://anttto.github.io/Breaking-Front-End/VanillaJS/index.html)
 - 습득 기술 및 경험
   > 1.  조금이나마 Vanilla Js 친밀감 상승
   > 2.  LocalStorage 기술의 이해와 활용 (너무 신기하고 멋졌다. 쿨)
   > 3.  JSON (JavaScript Object Notation)에 관한 이해. `JSON.stringify()` & `JSON.parse()` 유레카!
   > 4.  geolocation API를 활용한 위치와 날씨 활용 (최고)
   > 5.  조금 더 플러스 된 개발 의지와 흥미
+
+현재까지의 기록 --
+자, 또 달리자.
