@@ -16,6 +16,3 @@
   > 3.  JSON (JavaScript Object Notation)에 관한 이해. `JSON.stringify()` & `JSON.parse()` 유레카!
   > 4.  geolocation API를 활용한 위치와 날씨 활용 (최고)
   > 5.  조금 더 플러스 된 개발 의지와 흥미
-
-현재까지의 기록 --
-자, 또 달리자.
