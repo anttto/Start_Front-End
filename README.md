@@ -12,6 +12,7 @@
 - Vanilla Js Study (노마드코더 총30개 영상)
 - To-Do List 완성(약 2주 소요) [Link](https://anttto.github.io/Breaking-Front-End/project-VanillaJS/index.html)
 - 습득 기술 및 경험
+
   > 1.  조금이나마 Vanilla Js 친밀감 상승
   > 2.  LocalStorage 기술의 이해와 활용 (너무 신기하고 멋졌다. 쿨)
   > 3.  JSON (JavaScript Object Notation)에 관한 이해. `JSON.stringify()` & `JSON.parse()`
