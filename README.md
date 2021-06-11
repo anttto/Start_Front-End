@@ -7,6 +7,7 @@
 - Vanilla Js 부터 제대로 해야겠다고 생각 (제이쿼리 의존도 없애기)
 - To-Do List 만들기 시작 (Vanilla Js만을 이용)
 
+
 #### 2021-06-04
 
 - Vanilla Js Study (노마드코더 총30개 영상)
@@ -18,6 +19,7 @@
   > 3.  JSON (JavaScript Object Notation)에 관한 이해. `JSON.stringify()` & `JSON.parse()`
   > 4.  geolocation API를 활용한 위치와 날씨 활용 (최고)
   > 5.  조금 더 플러스 된 개발 의지와 흥미
+
 
 #### 2021-06-11
 
