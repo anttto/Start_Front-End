@@ -27,10 +27,10 @@
   > 3. 간단한 리스트 페이지 실습 [Link](https://anttto.github.io/Breaking-Front-End/project-VanillaJS/index.html)
   > 4. Fetch API 를 이용한 Ajax 사용. (XMLHttpRequest API부터 JQuery를 거쳐, 현재는 JS ES6(ES2015) 표준으로 등장한 fetch API를 대부분 이용)
   > 5. Fetch
-        ```
-        fetch(name).then(function(response){
-          response.text().then(function(text){
-            document.querySelector('article').innerHTML = text;
-          });
-        });
-        ```
+    ```
+    fetch(name).then(function(response){
+      response.text().then(function(text){
+        document.querySelector('article').innerHTML = text;
+      });
+    });
+    ```
