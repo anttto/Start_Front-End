@@ -22,13 +22,15 @@
 #### 2021-06-11
 
 - Ajax Study (생활코딩 총16개 영상)
+- 간단한 리스트 페이지 실습 [Link](https://anttto.github.io/Breaking-Front-End/project-Ajax/)
 - 습득 기술 및 경험
 
   > 1. 아파치 웹서버를 설치 후 실습 진행
   > 2. Single Page Application 구현의 기초가 되는 비동기식 통신 기술 (Asynchronous Javascript And XML)
-  > 3. 간단한 리스트 페이지 실습 [Link](https://anttto.github.io/Breaking-Front-End/project-Ajax/)
-  > 4. Fetch API 를 이용한 Ajax 사용. (XMLHttpRequest API부터 JQuery를 거쳐, 현재는 JS ES6(ES2015) 표준으로 등장한 fetch API를 대부분 이용)
-  > 5. Fetch 기본 구조 - 출처 : [@LYNMP](https://lynmp.com/en/article/title/markdown-code-block-as811c9dc5mm)
+  > 3. Fetch API 를 이용한 Ajax 사용. (XMLHttpRequest API부터 JQuery를 거쳐, 현재는 JS ES6(ES2015) 표준으로 등장한 fetch API를 대부분 이용)
+
+
+  > 4. Fetch 기본 구조 - 출처 : [@LYNMP](https://lynmp.com/en/article/title/markdown-code-block-as811c9dc5mm)
 
   ```
   fetch(resource, init)
@@ -56,7 +58,7 @@
   - Fetch API 는 자바스크립트 비동기처리 객체 Promise 기반으로 작동
   - Promise 개념정리 [캡틴판교](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
 
-  > 6. 실제 이용 코드
+  > 5. 실제 이용 코드
 
   ```
   fetch(url).then(function(res){
