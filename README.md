@@ -30,7 +30,7 @@
   > 3. Fetch API 를 이용한 Ajax 사용. (XMLHttpRequest API부터 JQuery를 거쳐, 현재는 JS ES6(ES2015) 표준으로 등장한 fetch API를 대부분 이용)
 
 
-  > 4. Fetch 기본 구조 - 출처 : [@LYNMP](https://lynmp.com/en/article/title/markdown-code-block-as811c9dc5mm)
+  > 4. Fetch 기본 구조 - 출처 : [@ksh4820](https://velog.io/@ksh4820/Ajax-fetch)
 
   ```
   fetch(resource, init)
