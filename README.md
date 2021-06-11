@@ -55,8 +55,7 @@
     })
   ```
 
-  - Fetch API 는 자바스크립트 비동기처리 객체 Promise 기반으로 작동
-  - Promise 개념정리 [캡틴판교](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
+  - Fetch API는 비동기처리 객체 Promise 기반으로 작동 (Promise 개념 정리 [캡틴판교](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/))
 
   > 5. 실제 이용 코드
 
