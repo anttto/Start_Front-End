@@ -11,14 +11,12 @@
 #### 2021-06-04
 
 - Vanilla Js Study (노마드코더 총30개 영상)
-- To-Do List 완성(약 2주 소요) [Link](https://anttto.github.io/Breaking-Front-End/project-VanillaJS/)
+- To-Do List 완성(약 2주 소요) 강의+제작 모바일[Link](https://anttto.github.io/Breaking-Front-End/project-VanillaJS/)
 - 습득 기술 및 경험
 
-  > 1.  조금이나마 Vanilla Js 친밀감 상승
-  > 2.  LocalStorage 기술의 이해와 활용 (너무 신기하고 멋졌다. 쿨)
-  > 3.  JSON (JavaScript Object Notation)에 관한 이해. `JSON.stringify()` & `JSON.parse()`
-  > 4.  geolocation API를 활용한 위치와 날씨 활용 (최고)
-  > 5.  조금 더 플러스 된 개발 의지와 흥미
+  > 1.  LocalStorage 기술의 이해와 활용 
+  > 2.  JSON (JavaScript Object Notation)에 관한 이해. `JSON.stringify()` & `JSON.parse()`
+  > 3.  geolocation API를 활용한 위치와 날씨 활용 
 
 
 #### 2021-06-11
