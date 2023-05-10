@@ -26,6 +26,7 @@
   > 2. Single Page Application 구현의 기초가 되는 비동기식 통신 기술 (Asynchronous Javascript And XML)
   > 3. Fetch API 를 이용한 Ajax 사용. (XMLHttpRequest API부터 JQuery를 거쳐, 현재는 JS ES6(ES2015) 표준으로 등장한 fetch API를 대부분 이용)
 
+<br><br>
 #### 2023-05 기록
 
 ------------------------------------------------------------------------
