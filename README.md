@@ -26,41 +26,35 @@
   > 2. Single Page Application 구현의 기초가 되는 비동기식 통신 기술 (Asynchronous Javascript And XML)
   > 3. Fetch API 를 이용한 Ajax 사용. (XMLHttpRequest API부터 JQuery를 거쳐, 현재는 JS ES6(ES2015) 표준으로 등장한 fetch API를 대부분 이용)
 
+#### 2023-04
 
-  > 4. Fetch 기본 구조 - 출처 : [@ksh4820](https://velog.io/@ksh4820/Ajax-fetch)
-
-  ```
-  fetch(resource, init)
-    .then( callback )
-    .catch( callback )
-
-  ----------------------
-
-  fetch(url, init)
-    .then(res => {
-        if(res.status === 200){
-            return res.json()
-        }else{
-            console.error(`HTTP error! status: ${res.status}`)
-        }
-    })
-    .then(jsonData => {
-        console.log(jsonData)
-    })
-    .catch(err => {
-        console.log(err)
-    })
-  ```
-
-  - Fetch API는 비동기처리 객체 Promise 기반으로 작동 (Promise 개념 정리 [캡틴판교](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/))  
+# 기록...
 
 
-  > 5. 실습 페이지 사용 코드
-
-  ```
-  fetch(url).then(function(res){
-    res.text().then(function(text){
-      document.querySelector('article').innerHTML = text;
-    });
-  });
-  ```
+------------------------------------------------------------------------
+2021년~2022년
+------------------------------------------------------------------------
+1. 웹의 동작 원리
+2. 바닐라 자바스크립트 공부 (다시 기초 하는 마음으로..  제이쿼리 지양 시작)
+3. 바닐라 스크립트 이용하여 순수 요청과 응답 예제들 연습
+4. DB 의 기본 베이스 지식 - (종류, 방식 등)
+5. 배열과 객체 심화 학습
+6. 클론코딩 인강 따라하기 (약 200강 풀스택 => JS, PUG(Ruby), SCSS, NodeJS(Express), MONGO DB, Mongoose ) 죽는줄 알았음.. 
+- 모르는부분 파면서 하느라 3개월 매일 해서 겨우 완성
+- 프론트 개발을 하려해도 뒤에까지 플로우를 한번 타봐야 전체적으로 머리속에 완성될것 같아서 시작했었음..
+------------------------------------------------------------------------
+2023년 1월 ~ 현재
+------------------------------------------------------------------------
+8. 본격적 타겟을 좁혀서 프론트개발 공부 시작 (일단 리액트로 선택 후 시작 - 주력 프레임워크나 라이브러리는 언제든 바뀔수 있음) 
+9. 리액트 클론 인강 시작 (약 200강) - 3개월 동안 밥먹구 잘때 빼고 계속 함. 
+- 러닝커브 높음... 리액트의 상태 지속 변경 속성등이 공부하다보면 이해는 가지만 정작 활용은 어려움 (기초 씨게 안잡으면 나중에 활용 자체가 안됨)
+- 기존 웹개발자 && JS 능숙하게 잘 다룬다는 전제 하에 준수하다 함. 
+10. 리액트 실습 3개 완성하고 개인적으로 만들어보고 싶었던 아트워크 SNS형 블로그 만들기 시작. (React, JS, Tailwind(css), Firebase[Auth, DB], Cloudinary(storage))
+(엄청난 삽질과 고뇌, 좌절.... 하지만 겁나 파다보면 해결됨 (도파민 버프받고 다시 타오름)
+11. '부족한 부분들이 이런것들 이구나' 만들면서 느낌... 
+----- 웹앱 개발하면서 계속 공부 ------
+12. 배열과 객체를 다루는 개념&활용 공부
+13. 비동기, CallBack, Promise객체 개념, then(), fetch, async, await, axios ..... 공부
+14. SDK 개념, REST API 개념, 쿠키, 토큰, 세션.... 공부할게 왜이렇게 많은지 모르겠음 
+----------------------------------------
+15. 계속해서 개인 프로젝트 제작중.. (곧 알파 v1.0 CBT 진행 예정)
